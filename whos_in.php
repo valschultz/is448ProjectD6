@@ -4,12 +4,12 @@
 <!--Author: Andrew Peterson	-->
 <?php
 #checks the session. Will redirect to the login page if there is no session user id.
-# comment out the session checking if testing
-#session_start();
-#if ($_SESSION['login_user']) {
-#} else {
-#    header("location: https://swe.umbc.edu/~schultz4/is448/projectModified/Registration.html");
-#}
+#comment out the session checking if testing
+session_start();
+if ($_SESSION['login_user']) {
+} else {
+    header("location: https://swe.umbc.edu/~schultz4/is448/projectModified/Registration.html");
+}
 ?>
 <head>
     <title>View available machines | Collaborate</title>
