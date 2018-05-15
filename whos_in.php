@@ -34,7 +34,7 @@
         </a>
         <br />
         <br />
-        <a class="menu_link" href="https://swe.umbc.edu/~andrewp2/is448/projectD5/whos_in.php">
+        <a class="menu_link" href="https://swe.umbc.edu/~andrewp2/is448/is448ProjectD6/whos_in.php">
             See Who's In
         </a>
         <br />
