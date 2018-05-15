@@ -74,7 +74,7 @@ function mouseOverc1() {
     var c_machine = 1;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -95,7 +95,7 @@ function mouseOverc2() {
     var c_machine = 2;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -116,7 +116,7 @@ function mouseOverc3() {
     var c_machine = 3;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -137,7 +137,7 @@ function mouseOverc4() {
     var c_machine = 4;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -158,7 +158,7 @@ function mouseOverc5() {
     var c_machine = 5;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -179,7 +179,7 @@ function mouseOverc6() {
     var c_machine = 6;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -200,7 +200,7 @@ function mouseOverc7() {
     var c_machine = 7;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -221,7 +221,7 @@ function mouseOverc8() {
     var c_machine = 8;
     var w_machine = 0;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -248,7 +248,7 @@ function mouseOverw1() {
     var c_machine = 0;
     var w_machine = 9;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -270,7 +270,7 @@ function mouseOverw2() {
     var c_machine = 0;
     var w_machine = 10;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -291,7 +291,7 @@ function mouseOverw3() {
     var c_machine = 0;
     var w_machine = 11;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
@@ -313,7 +313,7 @@ function mouseOverw4() {
     var c_machine = 0;
     var w_machine = 12;
 
-    new Ajax.Request("whos_in_test.php", {
+    new Ajax.Request("whos_in_results.php", {
         method: "get",
         parameters: {
             cardio_id: c_machine,
