@@ -66,7 +66,7 @@ if ($_SESSION['login_user']) {
 	<span id = "schedule"> Today's Schedule </span>
 	</a>
 	<br /><br />
-	<a class= "menu_link" href = "https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+	<a class= "menu_link" href = "https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
 	<span id = "reg"> Equipment Registration </span>
 	</a>
 	<br /><br />
