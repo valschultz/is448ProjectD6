@@ -30,6 +30,10 @@ a.menu_link {
     text-align: center;
 }
 
+#passDetail{
+	visibility: visible;
+}
+
 /*Student Home Page*/
 
 .last5 {

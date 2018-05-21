@@ -56,7 +56,7 @@
 			<div class = "center">
 				<p>
 					Incorrect id or password, try again! <br />
-					Click <a href="https://swe.umbc.edu/~schultz4/is448/projectModified/Registration.html"> HERE</a> to go back
+					Click <a href="https://swe.umbc.edu/~schultz4/is448/projectFinal/Registration.html"> HERE</a> to go back
 				</p>
 			</div>
 			
@@ -69,7 +69,7 @@
 				<div class = "center">
 				<p>
 					Invalid student id. Must be 2 letters followed by 5 numbers. <br />
-					Click <a href="https://swe.umbc.edu/~schultz4/is448/projectModified/Registration.html"> HERE</a> to go back
+					Click <a href="https://swe.umbc.edu/~schultz4/is448/projectFinal/Registration.html"> HERE</a> to go back
 				</p>
 			</div>
 			<?php
