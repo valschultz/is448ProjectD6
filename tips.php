@@ -1,7 +1,5 @@
+<!--Author: Mary Brooks -->
 <?php
-//Author: Mary Brooks
-
-
 $db = mysqli_connect("studentdb-maria.gl.umbc.edu","mbrooks3","mbrooks3","mbrooks3");
 	
 	if (mysqli_connect_errno())	{
