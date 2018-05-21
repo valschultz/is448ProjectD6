@@ -70,7 +70,7 @@ if ($_SESSION['login_user']) {
 	<span id = "reg"> Equipment Registration </span>
 	</a>
 	<br /><br />
-	<a class= "menu_link" href = "https://swe.umbc.edu/~schultz4/is448/projectModified/logout.php" >
+	<a class= "menu_link" href = "https://swe.umbc.edu/~schultz4/is448/projectFinal/logout.php" >
 	<span id = "out"> Log-Out </span>
 	</a>
 </div>
@@ -99,7 +99,7 @@ if ($_SESSION['login_user']) {
 	}
 ?>
 	<!-- This clickable will allow the user to view more of their last used machines-->
-	<a class = "menu_link" href="https://swe.umbc.edu/~mbrooks3/is448/project3/seepastmachies.php">
+	<a class = "menu_link" href="https://swe.umbc.edu/~mbrooks3/is448/project3/seepastmachines.php">
 	<span  id = "past" > See More Past Machines </span>
 	</a>
 <?php
