@@ -32,8 +32,7 @@ else {
 		$note_date = htmlspecialchars($_POST ["note_date"]);
 		$note_content = htmlspecialchars($_POST ["note_content"]);
 		$student_id = htmlspecialchars($_SESSION['login_user']);
-		echo $student_id;
-		
+				
 		//write to database
 		$insert_query = "INSERT INTO Student_Notes (student_id, note_date, note_content) 
 			VALUES ('$student_id','$note_date','$note_content')";
