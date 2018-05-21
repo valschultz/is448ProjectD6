@@ -5,7 +5,7 @@ $db = mysqli_connect("studentdb-maria.gl.umbc.edu","mbrooks3","mbrooks3","mbrook
 	if (mysqli_connect_errno())	{
 		exit("Error - could not connect to MySQL");
 	}
-$number = floor(rand(1,7));
+$number = floor(rand(1,10));
 $tip_query = "SELECT tip_content FROM Tips WHERE tip_id = '".$number."'";
 $tip_result = mysqli_query($db,$tip_query);
 	/*if(! $tip_result){
