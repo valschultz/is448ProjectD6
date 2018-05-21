@@ -49,7 +49,7 @@
 		if((!$id=="") && (!$password=="")){
 			if($num_rows==1){
 				$_SESSION['login_user']=$id;
-				header("location: https://swe.umbc.edu/~mbrooks3/is448/project2/studenthomepage.php");
+				header("location: https://swe.umbc.edu/~mbrooks3/is448/project3/studenthomepage.php");
 			}
 
    else{?>

@@ -14,7 +14,7 @@
 			if(isset($_SESSION['login_user']))
 				unset($_SESSION['login_user']);
 			session_destroy();
-			header("location: https://swe.umbc.edu/~schultz4/is448/projectModified/Registration.html");
+			header("location: https://swe.umbc.edu/~schultz4/is448/projectFinal/Registration.html");
 			?>
 			
 		</body>
