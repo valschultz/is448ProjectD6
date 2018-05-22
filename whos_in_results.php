@@ -1,6 +1,8 @@
 <?php
 $db = mysqli_connect("studentdb-maria.gl.umbc.edu", "mbrooks3", "mbrooks3", "mbrooks3");
 
+# Author: Andrew Peterson
+
 #sanity check
 if (mysqli_connect_errno()) {
     exit("Error - could not connect to MySQL");

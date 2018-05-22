@@ -29,7 +29,7 @@ if ($_SESSION['login_user']) {
 
 
     <div class="menu">
-        <a class="menu_link" href="https://swe.umbc.edu/~mbrooks3/is448/project2/studenthomepage.php">
+        <a class="menu_link" href="https://swe.umbc.edu/~mbrooks3/is448/project3/studenthomepage.php">
             My Page
         </a>
         <br />
@@ -44,12 +44,12 @@ if ($_SESSION['login_user']) {
         </a>
         <br />
         <br />
-        <a class="menu_link" href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a class="menu_link" href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             Equipment Registration
         </a>
         <br />
         <br />
-        <a class="menu_link" href="https://swe.umbc.edu/~schultz4/is448/projectModified/logout.php">
+        <a class="menu_link" href="https://swe.umbc.edu/~schultz4/is448/projectFinal/logout.php">
             Log-Out
         </a>
     </div>
@@ -73,28 +73,28 @@ if ($_SESSION['login_user']) {
         <hr />
         <h2>Cardio Balcony</h2>
         <!-- The amount of tread mills and ellipticals given to us.-->
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_1"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_2"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_3"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_4"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_5"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_6"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_7"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="cardio_recs" id="cr_8"></div>
         </a>
     </div>
@@ -104,16 +104,16 @@ if ($_SESSION['login_user']) {
 
         <h2>Weight Room</h2>
         <!-- The amount of squat racks and bench presses given to us.-->
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="weight_room_recs" id="wrr_1"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="weight_room_recs" id="wrr_2"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="weight_room_recs" id="wrr_3"></div>
         </a>
-        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.php">
+        <a href="https://swe.umbc.edu/~ix32419/is448/Project/equipment_reservation.html">
             <div class="weight_room_recs" id="wrr_4"></div>
         </a>
     </div>

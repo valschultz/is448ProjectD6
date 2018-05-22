@@ -1,5 +1,7 @@
 window.onload = pageLoad;
 
+// Author: Andrew Peterson
+
 function pageLoad() {
     // setting the machines //
     cardio1 = $("cr_1");
