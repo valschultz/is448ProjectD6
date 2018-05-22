@@ -128,6 +128,11 @@ a.menu_link {
     text-align: center;
 }
 
+.schedule_form {
+    position: absolute;
+    text-align: center;
+}
+
 /*Shinyoung Caleb Lee's part only*/
 
 .statement {
