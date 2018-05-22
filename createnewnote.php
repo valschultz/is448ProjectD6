@@ -25,7 +25,6 @@ else {
 	}
 	//create new note
 	//get data and check if set and not empty
-	//check date content for proper format
 	if (isset($_POST ["note_date"])  && !empty($_POST ["note_date"]) &&
 		isset($_POST ["note_content"])  && !empty($_POST ["note_content"])){
 	
