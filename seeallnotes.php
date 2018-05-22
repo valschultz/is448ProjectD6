@@ -3,6 +3,7 @@
 #checks the session. Will redirect to the login page if there is no session user id.
 session_start();
 if ($_SESSION['login_user']) {
+	$id = htmlspecialchars($_SESSION['login_user']);
 } else {
     header("location: https://swe.umbc.edu/~schultz4/is448/projectFinal/Registration.html");
 }
@@ -23,7 +24,7 @@ if ($_SESSION['login_user']) {
 		exit("Error - could not connect to MySQL");
 	}
 	//retieve note data from database
-	$notes_query = "SELECT * FROM Student_Notes WHERE student_id = $_SESSION['login_user'] ORDER BY note_id DESC";
+	$notes_query = "SELECT * FROM Student_Notes WHERE student_id = '".$id."' ORDER BY note_id DESC";
 	$notes_result = mysqli_query($db,$notes_query);
 	if(! $notes_result){
 		print("Error - query could not be executed");
@@ -36,14 +37,14 @@ if ($_SESSION['login_user']) {
 	$num_rows = mysqli_num_rows($notes_result);
 	for($row_num = 1; $row_num <= $num_rows; $row_num++){
 		$note_array = mysqli_fetch_array($notes_result);
-		echo '<div class = "notes">';
+		echo '<div class = "center">';
 		print ("<p> $note_array[note_date]: $note_array[note_content] <br /></p>");	
 		echo '</div>';
 	}
 	
 ?>
 	<div class = "center">
-		<a href = "https://swe.umbc.edu/~mbrooks3/is448/project2/studenthomepage.php">
+		<a href = "https://swe.umbc.edu/~mbrooks3/is448/project3/studenthomepage.php">
 		Return Home
 		</a>
 	</div>
