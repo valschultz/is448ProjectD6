@@ -8,7 +8,7 @@
 session_start();
 if ($_SESSION['login_user']) {
 } else {
-    header("location: https://swe.umbc.edu/~schultz4/is448/projectModified/Registration.html");
+    header("location: https://swe.umbc.edu/~schultz4/is448/projectFinal/Registration.html");
 }
 ?>
 <head>
