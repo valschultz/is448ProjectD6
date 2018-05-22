@@ -62,7 +62,8 @@ if ($_SESSION['login_user']) {
             Use this page to view open machines and make sure you get a machine next to your friend.
         </p>
         <p>
-        <?php echo "<i>The current time is: </i>" . date("h:i:sa"); ?>
+        <?php echo "<i>The current time is: </i>" . date("h:i:sa") . ". "; ?>
+            For the demo, the time set to 12pm.
         </p>
     </div>
 
